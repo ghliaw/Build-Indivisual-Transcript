@@ -42,7 +42,7 @@ def main():
     # 呼叫split_docx_by_sections.py來切割docx檔案
     os.system(f'python split_docx_by_sections.py "{input_docx}" "output_sections"')
     # 呼叫doc2pdf.py來將切割後的docx檔案轉成pdf檔案
-    os.system(f'python doc2pdf.py "output_sections" --outdir "output_pdfs" --no-isolate --unblock')
+    os.system(f'python doc2pdf.py "output_sections" --outdir "output_pdfs" --unblock')
     # 讀取csv檔案，將output_pdfs資料夾中的pdf檔案依序移動到對應的資料夾中
     with open(csvfilename, newline='', encoding='utf-8') as csvfile:
         next(csvfile)

@@ -18,3 +18,12 @@
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/7cbf1dbd-b995-4de7-8396-c6b569d39f4a" />
 
+### 1. 成績登錄到Excel檔
+將學生各項作業/考試成績以及學期成績登錄到Excel檔，可以參考Example資料夾下的Score.xlsx檔。
+
+<img width="500"  alt="image" src="https://github.com/user-attachments/assets/1667f748-cc54-4afa-9ccf-446efac8c583" />
+
+
+
+
+
